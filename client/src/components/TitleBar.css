@@ -1,0 +1,32 @@
+body {
+  /* background-image: url("../images/bdbackground1.png");
+    background-repeat: repeat-x repeat-y;
+    background-repeat: 3 3;
+    background-size: cover;
+     */
+}
+
+.menu-container {
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  margin: 10px 120px;
+}
+
+.hero {
+  background-color: rgb(28,167,205);
+  border-radius: 10px;
+  padding: 10px;
+  padding-top:25px;
+  margin-bottom: 20px;
+}
+.title {
+  align-items: center;
+  font-size: 50px;
+  font-family: "New Grotesk Square THREE _WEB";
+}
+
+#logo {
+  display: inline;
+  height: 200px;
+}

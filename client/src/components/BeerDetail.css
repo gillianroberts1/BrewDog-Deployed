@@ -1,0 +1,110 @@
+@import url(https://db.onlinewebfonts.com/c/553e6a3ae81f5dd5d83a25f7275f77c2?family=New+Grotesk+Square+THREE+_WEB);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Montserrat:wght@500&family=Tektur:wght@500&display=swap");
+
+* {
+  font-family: "Inter";
+}
+
+.beer-container {
+  margin: 0 120px;
+}
+
+.beer-card-image-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  padding: 25px 0;
+}
+
+
+
+.beer-card-image {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.beer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+.beer-card-detail,
+p {
+  text-align: center;
+}
+
+.beer-card-info {
+  width: 450px;
+}
+
+.beer-card-info-name {
+  text-align: center;
+  text-transform: uppercase;
+
+  font-family: "New Grotesk Square THREE _WEB";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.expandable-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.pairings-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.description-box {
+  width: 410px;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.beer-card-description {
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: none  ;
+  font-size: 20px;
+  border-radius: 25%;
+}
+
+button:hover {
+  background-color:rgb(28,167,205);
+}
+
+.fav-btn {
+  display: inline-flex;
+  margin-top: 20px;
+  font-size: 15px;
+  border: none; 
+  border-radius:10px;
+}

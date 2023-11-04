@@ -1,0 +1,16 @@
+* {
+  /* background-image: url("../images/bdbackground2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 200px */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+
+.basket:hover {
+  background-color: unset;
+}
