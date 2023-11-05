@@ -116,15 +116,17 @@ button:hover {
   }
   .description-container, .pairings-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 300px;
   }
   .description-box{
-    width: auto;
+    width: 300px;
 
   }
   .beer-card-pairings{
     display: grid;
-    grid-template-columns: max-content;
+    /* grid-template-columns: max-content; */
+    width: 300px;
 
   }
   .beer-card-image-container{
