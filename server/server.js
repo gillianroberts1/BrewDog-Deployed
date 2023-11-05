@@ -8,9 +8,13 @@ app.use(express.json());
 const MongoClient = require("mongodb").MongoClient;
 const createRouter = require("./helpers/create_router.js");
 
-MongoClient.connect("mongodb://127.0.0.1:27017", {
-  useUnifiedTopology: true,
-})
+MongoClient.connect(
+  process.env.MONGODB_URI,
+
+  {
+    useUnifiedTopology: true,
+  }
+)
   .then((client) => {
     const db = client.db("brewdog");
     const basketCollection = db.collection("basket");
