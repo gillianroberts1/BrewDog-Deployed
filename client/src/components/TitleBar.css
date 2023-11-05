@@ -40,4 +40,8 @@ body {
   .hero{
     width: 342px;
   }
+  select{
+    height: 33px;
+    font-size: 18px;
+  }
 }
