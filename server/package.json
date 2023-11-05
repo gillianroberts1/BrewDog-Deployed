@@ -18,6 +18,7 @@
     "mongodb": "^3.5.7"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
     "nodemon": "^3.0.1"
   }
 }
