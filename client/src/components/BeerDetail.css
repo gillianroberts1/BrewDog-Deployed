@@ -127,6 +127,9 @@ button:hover {
     grid-template-columns: max-content;
 
   }
+  .beer-card-image-container{
+    width: 360px;
+  }
   
 
   
