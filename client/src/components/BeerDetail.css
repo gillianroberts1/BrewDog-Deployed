@@ -108,3 +108,27 @@ button:hover {
   border: none; 
   border-radius:10px;
 }
+
+@media (max-width: 768px){
+  .beer-container{
+    flex-direction: column;
+    flex: 100%;
+  }
+  .description-container, .pairings-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .description-box{
+    width: auto;
+
+  }
+  .beer-card-pairings{
+    display: grid;
+    grid-template-columns: max-content;
+
+  }
+  
+
+  
+
+}

@@ -36,3 +36,12 @@ input:focus {
   font-size: 13px;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 76%;
+  }
+  
+}

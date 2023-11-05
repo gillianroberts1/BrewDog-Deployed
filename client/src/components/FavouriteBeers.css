@@ -19,3 +19,12 @@ li {
   text-align: left;
   font-size: 12px;
 }
+
+@media (max-width: 768px) {
+  .basket,
+  .basket:hover {
+    position: absolute;
+    top: 16px;
+    right: 0;
+  }
+}

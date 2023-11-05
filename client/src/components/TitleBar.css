@@ -14,10 +14,10 @@ body {
 }
 
 .hero {
-  background-color: rgb(28,167,205);
+  background-color: rgb(28, 167, 205);
   border-radius: 10px;
   padding: 10px;
-  padding-top:25px;
+  padding-top: 25px;
   margin-bottom: 20px;
 }
 .title {
@@ -29,4 +29,15 @@ body {
 #logo {
   display: inline;
   height: 200px;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    display: grid;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .hero{
+    width: 342px;
+  }
 }

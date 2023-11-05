@@ -38,3 +38,10 @@ button.beer {
 .beer-tag {
   text-transform: uppercase;
 }
+
+@media (max-width: 768px) {
+  .all-beers-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
