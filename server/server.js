@@ -19,13 +19,13 @@ MongoClient.connect(
     const db = client.db("brewdog");
     const basketCollection = db.collection("basket");
     const basketRouter = createRouter(basketCollection);
+    console.log("client created");
     app.use("/api/basket", basketRouter);
   })
-  .catch(console.err);
-
-app.use("/louise", (req, res) => {
-  res.send("Hello");
-});
+  .catch((error) => {
+    console.log("in catch block");
+    console.error("this is the error:", error);
+  });
 
 const hostname = "0.0.0.0";
 const port = process.env.port || 3000;

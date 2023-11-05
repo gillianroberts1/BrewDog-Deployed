@@ -1,21 +1,19 @@
-const baseURL = "http://localhost:9000/api/basket/"
+const baseURL = "https://brewdog-basket.fly.dev/api/basket";
 
 export const getBasket = () => {
-    return fetch(baseURL)
-    .then(res => res.json())
-}
+  return fetch(baseURL).then((res) => res.json());
+};
 
 export const postBasket = (payLoad) => {
-    return fetch(baseURL, {
-        method: 'POST',
-        body: JSON.stringify(payLoad),
-        headers: { 'Content-Type': 'application/json' }
-    })
-    .then(res => res.json())
-}
+  return fetch(baseURL, {
+    method: "POST",
+    body: JSON.stringify(payLoad),
+    headers: { "Content-Type": "application/json" },
+  }).then((res) => res.json());
+};
 
 export const deleteBasketItem = (id) => {
-    return fetch(baseURL + id, {
-        method: 'DELETE'
-    })
-}
+  return fetch(baseURL + id, {
+    method: "DELETE",
+  });
+};
