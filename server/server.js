@@ -9,7 +9,7 @@ const MongoClient = require("mongodb").MongoClient;
 const createRouter = require("./helpers/create_router.js");
 
 MongoClient.connect(
-  process.env.MONGODB_URI,
+  process.env.MONGODB_URL,
 
   {
     useUnifiedTopology: true,
