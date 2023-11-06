@@ -30,6 +30,7 @@
   flex-direction: column;
   align-items: center;
   opacity: 1;
+  border-radius: 10px;
 }
 
 .beer-card-detail,
@@ -132,6 +133,7 @@ button:hover {
   }
   .beer-card-image-container{
     width: 360px;
+    border-radius: 10px;
   }
   
 
