@@ -43,5 +43,8 @@ body {
   select{
     height: 33px;
     font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    border: none;
   }
 }

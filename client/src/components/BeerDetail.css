@@ -95,6 +95,7 @@ button {
   background: none  ;
   font-size: 20px;
   border-radius: 25%;
+  color: black;
 }
 
 button:hover {
